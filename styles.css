@@ -1,0 +1,76 @@
+.floating-container {
+    background-color: #f0e9e9; /* Set your desired background color */
+    box-shadow: 0px 5px 10px 0px #aaa;
+    padding: 20px; /* Add some padding for content spacing */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+}
+.carousel-item {
+    border-radius: 10px; /* Adjust the border-radius for a sleek rounded corner effect on the cards */
+    overflow: hidden; /* Hide any overflow for a clean look */
+}
+body {
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(114,160,193,1) 85%, rgba(0,34,68,1) 100%);
+    font-family: 'Varela Sans', sans-serif; /* Apply Varela Sans to the body text */
+}
+/* Add your custom styles here */
+.navbar-container {
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-lines {
+    cursor: pointer;
+}
+
+.menu-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu-items li {
+    margin-right: 15px;
+}
+
+.logo img {
+    max-width: 100px; /* Set the maximum width of your logo */
+    height: 100px; /* Maintain the aspect ratio */
+    /* Add any other styles for your logo as needed */
+    object-fit: contain;
+}
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
+.card {
+    transition: transform 0.3s; /* Add a smooth transition effect */
+    
+}
+
+
+.card:hover {
+    transform: scale(1.05); /* Increase the size of the card on hover */
+   
+}
+
+.card:hover .card-img-top {
+    filter: brightness(80%); /* Adjust brightness of the image on hover */
+}
+
+.googleFont{
+    font-family: 'Varela Sans', sans-serif;
+}
+
+
+ /* Customize button styles */
+ .btn-custom {
+    background-color: #002244; /* Set button background color */
+    color: white; /* Set button text color */
+    transition: background-color 0.3s; /* Add a smooth transition effect for background color */
+}
+
+.btn-custom:hover {
+    background-color: #004080; /* Change button background color on hover */
+}
